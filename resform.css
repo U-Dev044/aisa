@@ -42,7 +42,7 @@
     }
     .select-menu{
         width: 280px;
-        height: 35px;
+        /* height: 35px; */
     }
     .select-menu .select-btn{
         width: 280px;
@@ -92,7 +92,6 @@
     }
     .select-menu{
         width: 260px;
-        height: 35px;
     }
     .select-menu .select-btn{
         width: 260px;
@@ -100,10 +99,21 @@
     .select-menu2{
         width: 260px;
     }
+    .select-menu2 .select-btn2{
+        width: 260px;
+
+    }
     .select-menu3{
+        width: 260px;
+
+    }
+    .select-menu3 .select-btn3{
         width: 260px;
     }
     .select-menu4{
+        width: 260px;
+    }
+    .select-menu4 .select-btn4{
         width: 260px;
     }
     
