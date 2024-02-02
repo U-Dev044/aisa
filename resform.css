@@ -3,6 +3,9 @@
         /* background: red; */
 
     }
+    header img{
+        margin-top: 200px;
+    }
     .courses{
         background-color: #E28103;
         padding: 30px;
@@ -13,11 +16,28 @@
     }
 
 }
+@media (max-width: 769px){
+    .footer-end{
+        height: 20vh;
+        background-color: #000;
+        display: flex;
+        border-top: 5px solid #E28103;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    .footer-end h5{
+        font-size: 14px;
+        margin: 50px auto;
+        font-weight: 400;
+        color: white;
+        padding: 8px;
+    }
 
+}
 @media (max-width: 426px){
     header img{
         width: 280px;
-        margin-top: 30px;
+        margin-top: 150px;
     }
 
     .courses{
@@ -42,7 +62,6 @@
     }
     .select-menu{
         width: 280px;
-        /* height: 35px; */
     }
     .select-menu .select-btn{
         width: 280px;
@@ -56,7 +75,22 @@
     .select-menu4{
         width: 280px;
     }
-    
+    .footer-end{
+        height: 20vh;
+        background-color: #000;
+        display: flex;
+        border-top: 5px solid #E28103;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    .footer-end h5{
+        font-size: 14px;
+        margin: 50px auto;
+        font-weight: 400;
+        color: white;
+        padding: 8px;
+    }
+
     
 }
 
@@ -67,7 +101,7 @@
 
     header img{
         width: 260px;
-        margin-top: 30px;
+        margin-top: 150px;
     }
 
     .courses{
@@ -117,6 +151,20 @@
         width: 260px;
     }
     
-    
+    .footer-end{
+        height: 20vh;
+        background-color: #000;
+        display: flex;
+        border-top: 5px solid #E28103;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    .footer-end h5{
+        font-size: 14px;
+        margin: 50px auto;
+        font-weight: 400;
+        color: white;
+        padding: 5px;
+    }
 
 }
